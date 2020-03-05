@@ -1,0 +1,29 @@
+.pp{
+    widows:160px;
+    height:160px;
+    border:4px solid lightblue;
+    border-radius: 50%;
+    border-color: lightblue;
+}
+body{
+    background-image: url('bi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.intro{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:blueviolet;
+}
+a{
+    color:red;
+    text-decoration:none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    margin-left: 30px;
+}
