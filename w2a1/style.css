@@ -1,0 +1,30 @@
+body{
+    background-color: lightslategrey;
+}
+#heading{
+    color:white;
+}
+#base{
+    background-color:gray;
+    height: 300px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#base2{
+    background-color: gray;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box1{
+    background-color:lightblue;
+    height:250px;
+    width:30%;
+}
+
+img{
+    height:100px;
+}
