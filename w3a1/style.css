@@ -57,7 +57,7 @@ a{
         margin:20px auto;
         flex-direction: column;
         width:100%;
-        min-height: 300px;
+        min-height: 255px;
     }
     .box{
         flex-direction:column;
@@ -69,7 +69,7 @@ a{
         display:block;
     }
     .ham{
-        height:50px;
+        height:35px;
     }
     .head{
         
