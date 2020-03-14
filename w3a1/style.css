@@ -1,0 +1,78 @@
+.pp{
+    widows:160px;
+    height:160px;
+    border:4px solid lightblue;
+    border-radius: 50%;
+    border-color: lightblue;
+}
+body{
+    background-image: url('bi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.intro{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:blueviolet;
+}
+a{
+    color:red;
+    text-decoration:none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    margin-left: 30px;
+}
+#base{
+    background-color: lightblue;
+    height:30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.box{
+    background-color: white;
+    border-radius: 100px;
+    border: turquoise solid 2px;
+}
+.nav{
+    color:purple;
+}
+.hamburger{
+    height:70%;
+    display:none;
+}
+.ham{
+    height:50px;
+}
+
+@media (max-width: 500px){
+    #base{
+        display: none;
+        margin:20px auto;
+        flex-direction: column;
+        width:100%;
+        min-height: 300px;
+    }
+    .box{
+        flex-direction:column;
+        width: 97%;
+        padding:15px 0;
+        margin-top: 10px;
+    }
+    .hamburger{
+        display:block;
+    }
+    .ham{
+        height:50px;
+    }
+    .head{
+        
+    }
+
+}
