@@ -58,13 +58,13 @@ a{
         flex-direction: column;
         width:100%;
         min-height: 260px;
+        background-color: none;
     }
     .box{
         flex-direction:column;
         width: 97%;
         padding:15px 0;
         margin-top: 10px;
-        border:none;
     }
     .hamburger{
         display:block;
